@@ -1,6 +1,6 @@
 ---
 - name: test
-  hosts: 192.168.1.50
+  hosts: target
   tasks:
   - name: Create a file called '/tmp/testfile.txt' with the content 'hello world'.
     copy: 
